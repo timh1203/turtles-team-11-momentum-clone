@@ -1,12 +1,16 @@
-# turtles-team-11-momentum-clone
+#turtles-team-11-momentum-clone
+Team members: Tony Brackins, Timothy Hoang
 
-=====Codementum Chrome Extension Clone
-Feature/Coding Theme with each new tab
+#current development
+=====Codementum 
+A momentum chrome extension clone with a coding theme to give new life to chrome tabs complete features including time, current weather, inspirational tech quote, and YouTube music playlist controls.
+    Feature/time - show time in current area via GPS with ability to switch from AM/PM and Military.
 
-Feature/Shows time -show current time in current area via GPS (Tim) -ability to switch from AM/PM and Military (Tim)
+#future development
+Feature/weather - show current temperature in current area via GPS with "feels like" temperature and switch from C* and F*.
 
-Feature/Shows weather -show current temperature in current area via GPS (Tim) -show "feels like" temperature if available (Tim) -convert C*/F* function (Tim)
+Feature/random quote - show quotes from famous tech gurus like Steve Jobs, Mark Zuckerberg, Bill Gates, and more.
 
-Feature/Show random quote from famous tech gurus? (Tim) -Steve Jobs -Mark Zuckerberg -Bill Gates -etc.
+Feature/music - add your favorite youtube coding music playlist to stream.
 
-Feature/Shows music -ability to stream? -add your favorite youtube coding music playlist (Tim)
+Feature/list - create the top 3 priorities you have today.
