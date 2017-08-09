@@ -1,19 +1,37 @@
 {
     "manifest_version": 2,
-    
-	"name": "Codementum by Turtle Team 11",
+    "name": "Codementum by Turtle Team 11",
 	"version": "1.0",
-	"description": "Momentum Extension Clone by Turtle Team 11 as part of Chingu-Voyage Cohort. A clone spiced up with a coding theme",
 
+	"description": "Momentum Extension Clone by Turtle Team 11 as part of Chingu-Voyage Cohort.",
+	
 	"browser_action": { 
-		"default_icon": "logo.png",
-		"default_popup": "popup.html",
-		"default_title": "Click here!"
+		"default_icon": "img/logo_19x19.png"
 	},
+
+	"content_scripts": [
+		// {
+		// 	"matches": ["http://*/*", "https://*/*"],
+		// 	"js": ["js/script.js"]
+		// }
+	],
+
+	"chrome_url_overrides": {
+      "newtab": "codementum.html"
+    },
 
 	"permissions": [
 		"activeTab",
 		"https://ajax.googleapis.com/"
-	]
+	],
+
+	"background": {
+		"scripts": ["js/background.js"]
+	},
+	
+	"icons": {
+		"64": "img/logo_64x64.png",
+		"32": "img/logo_32x32.png"
+	}
 
 }

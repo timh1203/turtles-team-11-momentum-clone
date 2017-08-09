@@ -1,0 +1,50 @@
+body {
+	background-image:url('../img/matrix.jpg');
+	background-size:cover;
+    height:100vh;
+}
+
+.container {
+	text-align: center;
+	color:white;
+
+	display: grid;
+	justify-content: center;
+	justify-items: space-between;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(300px, auto);
+	grid-template-areas:
+	". tt ."
+	"qu tm we"
+	". mu .";
+}
+
+.container > * {
+	margin: 20px;
+	padding: 20px;
+}
+
+.title {
+	background: rgba(108, 224, 82, 0.8);
+	grid-area: tt;
+}
+
+.time {
+	background: rgba(108, 224, 82, 0.3);
+	grid-area: tm;
+}
+
+.weather {
+	background: rgba(108, 224, 82, 0.3);
+	grid-area: we;
+}
+
+.quotes {
+	background: rgba(108, 224, 82, 0.3);
+	grid-area: qu;
+}
+
+.music {
+	background: rgba(108, 224, 82, 0.3);
+	grid-area: mu;
+}
